@@ -34,7 +34,7 @@ public class tops_career_centre {
 		login.click();
 	 }
    
-	public void aakib () {
+	public void ani () {
 		WebElement DropDown = driver.findElement(By.xpath("//body/div[@id='main-header']/div[1]/div[1]/div[2]/div[1]/a[1]/span[2]/i[1]"));
 		 Actions action = new Actions(driver);
 		    action.click(DropDown)
@@ -47,7 +47,7 @@ public class tops_career_centre {
 	public void personal_detail () throws InterruptedException {
 		
 		//profile image
-		//driver.findElement(By.id("profileImage")).sendKeys("C:\\Users\\CONCEPT\\Downloads\\WhatsApp Image 2023-12-23 at 3.07.25 PM.jpeg");
+		//driver.findElement(By.id("profileImage")).sendKeys("C:\\Users\\CONCEPT\\Downloads\\WhatsApp Image.jpeg");
 		
 		
 		
